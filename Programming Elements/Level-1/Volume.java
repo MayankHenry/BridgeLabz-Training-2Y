@@ -8,7 +8,6 @@ public class Volume {
         double volume = (4.0/3) * Math.PI * Math.pow(radius, 3);
         double volumeMiles = volume * 0.239913;
         sc.close();
-        System.out.println("Volume of the Earth in cubic kilometer is " + volume + " and in cubic miles is " + volumeMiles + ".");
-
+        System.out.println("Volume of the Earth in cubic kilometer is " + volume + " and cubic miles is " + volumeMiles + ".");
     }
 }

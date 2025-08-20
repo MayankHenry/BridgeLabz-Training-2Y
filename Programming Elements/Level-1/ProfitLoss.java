@@ -9,9 +9,9 @@ public class ProfitLoss {
         double sellingPrice = scanner.nextDouble();
 
         if(sellingPrice>costPrice){
-            System.out.println("Profit: " + (sellingPrice - costPrice));
+            System.out.println("The Profit is INR " + (sellingPrice - costPrice) + "and the profit percentage is " + ((sellingPrice - costPrice) / costPrice * 100));
         } else if(sellingPrice<costPrice){
-            System.out.println("Loss: " + (costPrice - sellingPrice));
+            System.out.println("The Cost Price is INR " + costPrice + "and the Selling Price is INR " + sellingPrice);
         } else {
             System.out.println("No Profit No Loss");    
         }

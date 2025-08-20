@@ -9,7 +9,7 @@ public class CmToFeetInches {
         int feet = (int) (totalInches / 12);
         int inches = (int) (totalInches % 12);
         
-        System.out.println(centimeters + " centimeters is equal to " + feet + " feet and " + inches + " inches.");
+        System.out.println(" Your height in cm is " + centimeters + " while in feet is " + feet + " and in inches is " + inches);
         scanner.close();
     }
 }

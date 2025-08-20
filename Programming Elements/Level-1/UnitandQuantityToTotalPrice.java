@@ -8,7 +8,7 @@ public class UnitandQuantityToTotalPrice {
         System.out.print("Enter the quantity: ");
         int quantity = scanner.nextInt();
         double totalPrice = unitPrice * quantity;
-        System.out.println("The total price is: " + totalPrice);
+        System.out.println("The total purchase price is INR " + totalPrice + "if the quantity is " + quantity + " and unit price is INR " + unitPrice);
         scanner.close();
     }
 }

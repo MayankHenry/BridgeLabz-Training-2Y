@@ -11,6 +11,6 @@ public class Average {
         System.out.print("Enter marks in Mathematics:");
         int mathematics = scanner.nextInt();
         int average = (physics + chemistry + mathematics) / 3;
-        System.out.println("Average marks are: " + average);
+        System.out.println("Sam's Average mark in PCM is " + average);
     }
 }

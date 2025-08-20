@@ -6,7 +6,7 @@ public class SideOfSquareFromParameter {
         System.out.print("Enter the perimeter of the square: ");
         double perimeter = scanner.nextDouble();
         double side = perimeter / 4;
-        System.out.println("The length of each side of the square is: " + side);
+        System.out.println("The length of the side is " + side + "whose perimeter is " + perimeter);
         scanner.close();
     }
 }

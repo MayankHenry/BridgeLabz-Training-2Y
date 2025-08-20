@@ -6,38 +6,8 @@ public class BasicCalculator {
         System.out.print("Enter first number: ");
         double num1 = scanner.nextDouble();
         System.out.print("Enter second number: ");
-        double num2 = scanner.nextDouble();
-        
-        System.out.print("Choose an operation (+, -, *, /): ");
-        char operation = scanner.next().charAt(0);
-        
-        double result;
-        switch (operation) {
-            case '+':
-                result = num1 + num2;
-                break;
-            case '-':
-                result = num1 - num2;
-                break;
-            case '*':
-                result = num1 * num2;
-                break;
-            case '/':
-                if (num2 != 0) {
-                    result = num1 / num2;
-                } else {
-                    System.out.println("Error: Division by zero is not allowed.");
-                    scanner.close();
-                    return;
-                }
-                break;
-            default:
-                System.out.println("Error: Invalid operation.");
-                scanner.close();
-                return;
-        }
-        
-        System.out.println("The result is: " + result);
+        double num2 = scanner.nextDouble();        
+        System.out.println("The addition,subtraction,multiplication and division value of 2 numbers " +num1+ "and" +num2+ "is" + (num1+num2) + "," + (num1-num2) + ", " + (num1*num2) + ", " +num1/num2 + " respectively.");
         scanner.close();
     }
 }

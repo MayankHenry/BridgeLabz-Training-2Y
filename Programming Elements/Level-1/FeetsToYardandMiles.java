@@ -7,7 +7,7 @@ public class FeetsToYardandMiles {
         double feet = scanner.nextDouble();
         double yards = feet / 3;
         double miles = feet / 5280;
-        System.out.println(feet + " feet is equal to " + yards + " yards and " + miles + " miles.");
+        System.out.println("The distance in yards is " + yards + "while the distance in miles is " + miles);
         scanner.close();
         }
 }

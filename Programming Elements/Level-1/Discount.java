@@ -10,7 +10,7 @@ public class Discount {
         double discount = scanner.nextDouble();
         double discountFee = fee * (discount / 100);
         double finalFee = fee - discountFee;
-        System.out.println("Final Fee after discount is: " + finalFee);
+        System.out.println("The discount amount is INR " + discountFee + " and final discounted fee is INR" + finalFee);
         scanner.close();
     }
 }
